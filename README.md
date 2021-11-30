@@ -5,3 +5,5 @@ It does this by having serveral different sensors, such as: infrared senors for 
 In addition the robot also has motors such as: the large motors, these are the motors our wheels use to spin them around and the medium motor which is a similar motor to that of the large motor, its function is the same having a spinning sensor inside detecting how far a motor has turned, used for picking up objects.
 
 This is how the robot looks: https://imgflip.com/gif/5w2rsu
+
+The build.xml file is important, as it builts the code for the version of the lejos system that the robot will use.
