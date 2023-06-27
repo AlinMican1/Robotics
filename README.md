@@ -1,9 +1,32 @@
-# Robotics
-The main class of this code is the Navigator_Robot class.
-The objective of this robot is to go around a warehouse assorting boxes by their colour by delivering each different colour box to their designated waypoint.
-It does this by having serveral different sensors, such as: infrared senors for detecting colour,  ultrasonic sensor where it emits a beam to measure the distance of how far an object is.
-In addition the robot also has motors such as: the large motors, these are the motors our wheels use to spin them around and the medium motor which is a similar motor to that of the large motor, its function is the same having a spinning sensor inside detecting how far a motor has turned, used for picking up objects.
+# Warehouse Box Sorting Robot
+Welcome to the Warehouse Box Sorting Robot project! The main class responsible for the core functionality of the robot is the Navigator_Robot class. This robot is designed to navigate a warehouse and sort boxes based on their colors by delivering each box to its designated waypoint.
 
-This is how the robot looks: https://imgflip.com/gif/5w2rsu
+# Robot Sensors
+To accomplish its task, the robot is equipped with several sensors:
 
-The build.xml file is important, as it builts the code for the version of the lejos system that the robot will use.
+Infrared Sensors: These sensors detect the colors of the boxes. By utilizing infrared technology, the robot can accurately identify the color of each box and determine the appropriate destination for delivery.
+
+Ultrasonic Sensor: The ultrasonic sensor emits a beam to measure the distance between the robot and objects in its vicinity. This allows the robot to navigate safely and avoid collisions as it moves through the warehouse.
+
+# Robot Motors
+The robot utilizes various motors to perform its actions:
+
+Large Motors: These motors are responsible for spinning the wheels, enabling the robot to move around the warehouse efficiently. They provide the necessary propulsion for the robot's locomotion.
+
+Medium Motor: The medium motor functions similarly to the large motors. It contains a spinning sensor inside that detects the rotation of the motor. This motor is primarily used for picking up objects during the sorting process.
+
+# Building the Code
+The build.xml file is a crucial component of the project. It is responsible for building the code for the specific version of the LeJOS system that the robot will utilize. This file ensures that the code is compiled and configured correctly, enabling seamless integration with the robot's hardware and sensors.
+
+# Getting Started
+To set up and run the Warehouse Box Sorting Robot, follow these steps:
+
+Clone this repository to your local machine.
+
+Ensure you have the necessary hardware components, including the robot platform and sensors.
+
+Modify the code in the Navigator_Robot class to suit your specific robot configuration and requirements.
+
+Use the provided build.xml file to build the code for the target LeJOS system version.
+
+Upload the compiled code to your robot and execute it.
